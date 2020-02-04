@@ -24,11 +24,6 @@ int main(void){
 
 
 <div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text. 
-     of painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler found that these observations could be explained if the planets moved around the sun along elliptical orbits, with the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton showed that just such a motion would arise from a universal attraction between bodies that was inversely proportional to the square of the distance between them. That
-  </p>
-</div>
 
 # Notes on Mathematics and Computer Science
 of painstaking astronomical observations, most crucially of the motions of the planets across the sky. 
@@ -67,3 +62,6 @@ the articles on my site. I would love to hear from you!
 <hr width="100%">
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 <hr width="100%">
+
+
+</div>
