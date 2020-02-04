@@ -39,5 +39,5 @@ Painstaking astronomical observations, most crucially of the motions of the plan
 
 
 <hr width="100%">
- <font size="20"> &#x1F4E7; </font> ![](docs/email.png){width=250px}
+ <font size="20"> &#x1F4E7; </font> ![](docs/email.png){width=350px}
 
