@@ -1,0 +1,617 @@
+/*ck
+ * This is a stylesheet basically modified version of http://bit.ly/2pR6esH 
+ * It is very similar to the pandoc.css stylesheet in its final look, but I've added lots of tweaks.
+ * The resulting theme is very natural to writing long essays and books and for static webpages.
+ * say for blog posts etc.
+ */
+
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Amita|Cinzel|Alegreya|Crimson+Text|Eczar|Great+Vibes|Parisienne|Philosopher|Pinyon+Script|Rochester|Tangerine&display=swap');
+
+.title {text-align: center;
+ font-family :  "Cinzel", "Alegreya", "Bookman Header";
+ margin-top: -80px;
+ color: black;
+font-size: 230%;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Hair.eot');
+    src: local('Fira Sans Hair'),
+         url('eot/FiraSans-Hair.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Hair.woff') format('woff'),
+         url('ttf/FiraSans-Hair.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-HairItalic.eot');
+    src: local('Fira Sans Hair Italic'),
+         url('eot/FiraSans-HairItalic.eot') format('embedded-opentype'),
+         url('woff/FiraSans-HairItalic.woff') format('woff'),
+         url('ttf/FiraSans-HairItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-UltraLight.eot');
+    src: local('Fira Sans UltraLight'),
+         url('eot/FiraSans-UltraLight.eot') format('embedded-opentype'),
+         url('woff/FiraSans-UltraLight.woff') format('woff'),
+         url('ttf/FiraSans-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-UltraLightItalic.eot');
+    src: local('Fira Sans UltraLight Italic'),
+         url('eot/FiraSans-UltraLightItalic.eot') format('embedded-opentype'),
+         url('woff/FiraSans-UltraLightItalic.woff') format('woff'),
+         url('ttf/FiraSans-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Light.eot');
+    src: local('Fira Sans Light'),
+         url('eot/FiraSans-Light.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Light.woff') format('woff'),
+         url('ttf/FiraSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-LightItalic.eot');
+    src: local('Fira Sans Light Italic'),
+         url('eot/FiraSans-LightItalic.eot') format('embedded-opentype'),
+         url('woff/FiraSans-LightItalic.woff') format('woff'),
+         url('ttf/FiraSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Regular.eot');
+    src: local('Fira Sans Regular'),
+         url('eot/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Regular.woff') format('woff'),
+         url('ttf/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Italic.eot');
+    src: local('Fira Sans Regular Italic'),
+         url('eot/FiraSans-Italic.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Italic.woff') format('woff'),
+         url('ttf/FiraSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Medium.eot');
+    src: local('Fira Sans Medium'),
+         url('eot/FiraSans-Medium.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Medium.woff') format('woff'),
+         url('ttf/FiraSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-MediumItalic.eot');
+    src: local('Fira Sans Medium Italic'),
+         url('eot/FiraSans-MediumItalic.eot') format('embedded-opentype'),
+         url('woff/FiraSans-MediumItalic.woff') format('woff'),
+         url('ttf/FiraSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-SemiBold.eot');
+    src: local('Fira Sans SemiBold'),
+         url('eot/FiraSans-SemiBold.eot') format('embedded-opentype'),
+         url('woff/FiraSans-SemiBold.woff') format('woff'),
+         url('ttf/FiraSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-SemiBoldItalic.eot');
+    src: local('Fira Sans SemiBold Italic'),
+         url('eot/FiraSans-SemiBoldItalic.eot') format('embedded-opentype'),
+         url('woff/FiraSans-SemiBoldItalic.woff') format('woff'),
+         url('ttf/FiraSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Bold.eot');
+    src: local('Fira Sans Bold'),
+         url('eot/FiraSans-Bold.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Bold.woff') format('woff'),
+         url('ttf/FiraSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-BoldItalic.eot');
+    src: local('Fira Sans Bold Italic'),
+         url('eot/FiraSans-BoldItalic.eot') format('embedded-opentype'),
+         url('woff/FiraSans-BoldItalic.woff') format('woff'),
+         url('ttf/FiraSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-ExtraBold.eot');
+    src: local('Fira Sans ExtraBold'),
+         url('eot/FiraSans-ExtraBold.eot') format('embedded-opentype'),
+         url('woff/FiraSans-ExtraBold.woff') format('woff'),
+         url('ttf/FiraSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-ExtraBoldItalic.eot');
+    src: local('Fira Sans ExtraBold Italic'),
+         url('eot/FiraSans-ExtraBoldItalic.eot') format('embedded-opentype'),
+         url('woff/FiraSans-ExtraBoldItalic.woff') format('woff'),
+         url('ttf/FiraSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Heavy.eot');
+    src: local('Fira Sans Heavy'),
+         url('eot/FiraSans-Heavy.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Heavy.woff') format('woff'),
+         url('ttf/FiraSans-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-HeavyItalic.eot');
+    src: local('Fira Sans Heavy Italic'),
+         url('eot/FiraSans-HeavyItalic.eot') format('embedded-opentype'),
+         url('woff/FiraSans-HeavyItalic.woff') format('woff'),
+         url('ttf/FiraSans-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+@font-face{
+    font-family: 'Fira Mono';
+    src: url('eot/FiraMono-Regular.eot');
+    src: local('Fira Mono'),
+         url('eot/FiraMono-Regular.eot') format('embedded-opentype'),
+         url('woff/FiraMono-Regular.woff') format('woff'),
+         url('ttf/FiraMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Mono';
+    src: url('eot/FiraMono-Bold.eot');
+    src: local('Fira Mono Bold'),
+         url('eot/FiraMono-Bold.eot') format('embedded-opentype'),
+         url('woff/FiraMono-Bold.woff') format('woff'),
+         url('ttf/FiraMono-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+html {
+  font-size: 12pt;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family:  "Helvetica Neue", "Myriad Pro", "Segoe UI", Myriad, Helvetica,
+    "Lucida Grande", "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L",
+    Tahoma, Geneva, Arial, sans-serif;
+}
+body {
+  padding:  4em; /*This is ideal. having information that is spread out from left to right is hurftul to the eyes and makes the content of the matter seem more forbidding. Here each line is an eyeful s you can proceed
+from one line to anotehr quite quickly.*/
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: "Linux Libertine", "Fira Sans Light", 'Helvetica Neue', 'Myriad Pro';
+  line-height: 1.8;
+  color:#373737;
+  text-align: justify;
+
+font-size: 85%;
+}
+
+code,
+pre,
+blockquote {
+  
+  /* border: 1px solid black;*/
+  padding: 0.05em;
+  background: white;
+}
+code,
+pre {
+  font-family: "ConsolaMono", "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+    monospace;
+  font-size:11px;
+  line-height:1.1px;
+}
+
+/*Gpt this from here: https://gomakethings.com/highlighting-effect-with-css/*/
+::-moz-selection,
+::selection {
+    background-color: black;
+    background-image: white;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin		: 0 0 0.5em 0;
+  line-height		: 1.2;
+  letter-spacing	: -0.02em;
+  font-family: Alegreya ;
+  padding-top		: 0.8em;
+}
+[class*="float-"] {
+  margin: 0 auto 1em auto;
+  display: block;
+  width: auto;
+  max-width: 100%;
+  clear: both;
+}
+@media (min-width: 600px) {
+  h1 {
+    font-size: 200%;
+  }
+  h2 {
+    font-size: 180%;
+  }
+  h3 {
+    font-size: 170%;
+  }
+  h4 {
+    font-size: 160%;
+  }
+  h5 {
+    font-size: 140%;
+  }
+  h6 {
+    font-size: 120%;
+  }
+  [class*="float-"] {
+    max-width: 40%;
+  }
+  .float-left {
+    float: left;
+    margin: 0 1em 0.5em 0;
+  }
+  .float-right {
+    float: right;
+    margin: 0 0 0.5em 1em;
+  }
+}
+
+/*from https://www.w3schools.com/css/css_link.asp*/
+/* unvisited link */
+a:link {
+  color: darkblue ;
+  text-decoration: none;
+  /*font-weight: bold; */
+}
+
+/* visited link */
+a:visited {
+  color: darkblue;
+  /*font-weight: bold;*/
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  background-color: darkblue ;
+  font-style: italic;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/*https://chomsky.info text justification is used 
+  to great effect on chomsky's wesbite*/
+
+div {
+  text-align: justify;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding:0 15px 0 15px;
+  border-style: solid; /*solid, dotted, dashed, double, groove, ridge, inset, outset*/
+  border-color: rgb(190,190,190);
+}
+
+
+
+body {
+  background-image: url("../images/inkscape1.jpg");
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+
+img, iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+iframe{
+border-radius: 15px;
+}
+
+blockquote{
+  font-size: 15px;
+  background: #ffffd1; #d9fdfa;
+  
+  border-left: 10px solid #3E473B;
+  margin: .5em 10px;
+  padding: 0 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+  font-style: italic;
+border-radius: 15px;
+font-family: "Alegreya", "Helvetica";
+}
+
+blockquote:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #6e6f6e;
+  font-size: 3em;
+}
+
+p{
+ margin: 0;
+}
+
+
+pre.src { 
+color: #F5FFFA;
+background-color: black;
+border-radius: 15px;
+border: 2px solid honeydew;
+overflow:auto;
+/*height:400px;*/
+font-family: "ConsolaMono";
+line-height: 1.1;
+font-size: 12px;
+}
+
+
+
+pre.sourceCode{
+font-size: 16px; 
+line-height: 1.1;
+
+color: black;
+background-color: white;
+overflow:auto;
+}
+
+/*Copied from and modified from https://alligator.io/css/collapsible */
+.wrap-collabsible {
+  margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle {
+  display: block;
+
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: left;
+
+  padding: 1rem;
+
+  color: black;
+  background:  lightgray;
+
+  cursor: pointer;
+
+  border-radius: 7px;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover {
+  color: darkred;
+}
+
+.lbl-toggle::before {
+  content: ' ';
+  display: inline-block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+  transition: transform .2s ease-out;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 350px;
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+  background: rgba(250, 224, 66, .2);
+  border-bottom: 1px solid rgba(250, 224, 66, .45);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: .5rem 1rem;
+}
+
+p { margin-bottom: 1em; }
+
+#text-table-of-contents{
+   font-size: 10pt;
+}
+
+#table-of-contents{
+    margin-top: -70px;
+}
+
+
+
+/* https://www.w3schools.com/howto/howto_css_dropdown.asp */
+
+.navbar {
+  overflow: hidden;
+  background-color: #f5eaa6;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+
+  font-weight: bold;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5eaa6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: orange;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
