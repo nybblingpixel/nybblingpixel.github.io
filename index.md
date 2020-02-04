@@ -1,14 +1,19 @@
 ---
 title: The Nybbling Pixel <br> <hr width="100%">
 header-includes: |
+   <meta charset="utf-8"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dehuti" type="text/css"/> 
    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gfs-didot" type="text/css"/> 
    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/pixelated" type="text/css"/> 
    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/consolamono" type="text/css"/> 
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
 ---
 <hr width="100%">
-
 
 ```c++
 #include<iostream>
@@ -18,20 +23,41 @@ int main(void){
 ```
 
 
-# Notes on Mathematics and Computer Science
-of painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler found that these observations could be explained if the planets moved around the sun along elliptical orbits, with the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton showed that just such a motion would arise from a universal attraction between bodies that was inversely proportional to the square of the distance between them. That 
+<div class="container">
+  <h1>My First Bootstrap Page</h1>
+  <p>This is some text. 
+     of painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler found that these observations could be explained if the planets moved around the sun along elliptical orbits, with the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton showed that just such a motion would arise from a universal attraction between bodies that was inversely proportional to the square of the distance between them. That
+  </p>
+</div>
 
+# Notes on Mathematics and Computer Science
+of painstaking astronomical observations, most crucially of the motions of the planets across the sky. 
+Johannes Kepler found that these observations could be explained if the planets moved around the sun along 
+elliptical orbits, with the square of the orbital period proportional to the cube of the length of the longest 
+axis of the ellipse. Newton showed that just such a motion would arise from a universal attraction between bodies 
+that was inversely proportional to the square of the distance between them. That 
 
 # Demo Programs, Applets, Code Experiments, and Walkthroughs 
-of painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler found that these observations could be explained if the planets moved around the sun along elliptical orbits, with the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton showed that just such a motion would arise from a universal attraction between bodies that was inversely proportional to the square of the distance between them. That 
-
+of painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler 
+found that these observations could be explained if the planets moved around the sun along elliptical orbits, with the 
+square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton showed 
+that just such a motion would arise from a universal attraction between bodies that was inversely proportional to the 
+square of the distance between them. That 
 
 # Notes on Life, the Universe and Everything
-Painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler found that these observations could be explained if the planets moved around the sun along elliptical orbits, with the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton showed that just such a motion would arise from a universal attraction between bodies that was inversely proportional to the square of the distance between them. That 
+Painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler 
+found that these observations could be explained if the planets moved around the sun along elliptical orbits, with 
+the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton 
+showed that just such a motion would arise from a universal attraction between bodies that was inversely proportional 
+to the square of the distance between them. That 
 
 # About Me
 
-Painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler found that these observations could be explained if the planets moved around the sun along elliptical orbits, with the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton showed that just such a motion would arise from a universal attraction between bodies that was inversely proportional to the square of the distance between them. That 
+Painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes 
+Kepler found that these observations could be explained if the planets moved around the sun along elliptical orbits, 
+with the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. 
+Newton showed that just such a motion would arise from a universal attraction between bodies that was inversely 
+proportional to the square of the distance between them. That 
 
 Please email me, if you would like to give some constructive feedback about 
 the articles on my site. I would love to hear from you! 
