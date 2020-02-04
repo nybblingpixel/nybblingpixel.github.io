@@ -2,15 +2,11 @@
 title: The Nybbling Pixel <br> <hr width="100%">
 header-includes: |
    <meta charset="utf-8"> 
-   <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dehuti" type="text/css"/> 
    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gfs-didot" type="text/css"/> 
    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/pixelated" type="text/css"/> 
    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/consolamono" type="text/css"/> 
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
 
 ---
 <hr width="100%">
@@ -23,7 +19,6 @@ int main(void){
 ```
 
 
-<div class="container">
 
 # Notes on Mathematics and Computer Science
 of painstaking astronomical observations, most crucially of the motions of the planets across the sky. 
@@ -63,5 +58,3 @@ the articles on my site. I would love to hear from you!
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 <hr width="100%">
 
-
-</div>
