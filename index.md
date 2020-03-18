@@ -16,20 +16,20 @@ header-includes: |
 Running commentaries on various papers, tools and techniques I come across in theory and algorithm engineering 
 in pure and applied mathematics and computer science.  
 
-# Literate Programs Fun Experiments
-Many of the articles in this section have been written as literate programs. This programming paradigm
-is the greatest invention since slice bread. Concepts in computer science are often at their clearest 
-when demonstrated in code (not psuedo-code!). With literate programming I get to clarify my concepts
-as I write the code, which hopefully lead to better computer programs. All literate programs you see 
-here have been generated with NoWeb a user-friendly and more powerful successor to Knuth's CWEB. 
+# Demo Literate Programs
+Many of the articles in this section have been written as literate programs. 
+Concepts in computer science are often at their clearest when explanations are 
+weaved into the source (this isn't the same as adding comments!). These articlesa
+are a personal experiment in this style of programming.
 
 # Commentaries on various software tools
 Want some capsule summaries, code snippets and usage tips of niche tools in the GNU/Linux ecosystem like 
 `pandoc`, `m4`, `awk`? You might find something useful here.  
 
 # Everything else...
-This section contain opinions, running commentaries on famous texts, verbal portraits, poems and notes on topics that have 
-caught my fancy over the years. 
+This section contain opinions, running commentaries on famous books, plays, poems,
+various stabs at writing picture prose and notes on topics that have caught my 
+fancy over the years. 
 
 <br>
 <br>
