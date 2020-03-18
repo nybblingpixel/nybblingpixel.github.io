@@ -11,46 +11,30 @@ header-includes: |
 ---
 <hr width="100%">
 
-```c++
-#include<iostream>
-int main(void){
- std::cout << "Hello World" << std::endl;
-}
-```
-
-
 
 # Notes on Mathematics and Computer Science
-of painstaking astronomical observations, most crucially of the motions of the planets across the sky. 
-Johannes Kepler found that these observations could be explained if the planets moved around the sun along 
-elliptical orbits, with the square of the orbital period proportional to the cube of the length of the longest 
-axis of the ellipse. Newton showed that just such a motion would arise from a universal attraction between bodies 
-that was inversely proportional to the square of the distance between them. That 
+Running commentaries on various papers, tools and techniques I come across in theory and algorithm engineering 
+in pure and applied mathematics and computer science.  
 
-# Demo Programs, Applets, Code Experiments, and Walkthroughs 
-of painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler 
-found that these observations could be explained if the planets moved around the sun along elliptical orbits, with the 
-square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton showed 
-that just such a motion would arise from a universal attraction between bodies that was inversely proportional to the 
-square of the distance between them. That 
+# Literate Programs Fun Experiments
+Many of the articles in this section have been written as literate programs. This programming paradigm
+is the greatest invention since slice bread. Concepts in computer science are often at their clearest 
+when demonstrated in code (not psuedo-code!). With literate programming I get to clarify my concepts
+as I write the code, which hopefully lead to better computer programs. All literate programs you see 
+here have been generated with NoWeb a user-friendly and more powerful successor to Knuth's CWEB. 
 
-# Notes on Life, the Universe and Everything
-Painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes Kepler 
-found that these observations could be explained if the planets moved around the sun along elliptical orbits, with 
-the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. Newton 
-showed that just such a motion would arise from a universal attraction between bodies that was inversely proportional 
-to the square of the distance between them. That 
+# Commentaries on various software tools
+Want some capsule summaries, code snippets and usage tips of niche tools in the GNU/Linux ecosystem like 
+`pandoc`, `m4`, `awk`? You might find something useful here.  
 
-# About Me
+# Everything else...
+This section contain opinions, running commentaries on famous texts, verbal portraits, poems and notes on topics that have 
+caught my fancy over the years. 
 
-Painstaking astronomical observations, most crucially of the motions of the planets across the sky. Johannes 
-Kepler found that these observations could be explained if the planets moved around the sun along elliptical orbits, 
-with the square of the orbital period proportional to the cube of the length of the longest axis of the ellipse. 
-Newton showed that just such a motion would arise from a universal attraction between bodies that was inversely 
-proportional to the square of the distance between them. That 
+<br>
+<br>
 
-Please email me, if you would like to give some constructive feedback about 
-the articles on my site. I would love to hear from you! 
+I hope you find these articles useful or maybe even entertaining! Feel free to email me with constructive feedback. I'd love to hear from you! 
 
 <font size="20"> &#x1F4E7; </font> ![](docs/email.png){width=350px}
 
